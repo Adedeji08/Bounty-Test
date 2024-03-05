@@ -47,6 +47,7 @@ function UserTable({ filteredTables }) {
               <td className="px-6 py-4 whitespace-nowrap">{table?.name}</td>
               <td className="px-6 py-4 whitespace-nowrap">{table?.email}</td>
               <td className="px-6 py-4 whitespace-nowrap">{table?.age}</td>
+              <td className="px-6 py-4 whitespace-nowrap">{table?.date}</td>
               <td className="px-6 py-4 whitespace-nowrap">{table?.status}</td>
             </tr>
           ))}
